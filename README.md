@@ -1,4 +1,4 @@
-# 🎓 KORUS 교육훈련 실적 검증 스킬 (korus-verification)
+# 1. 🎓 KORUS 교육훈련 실적 검증 스킬 (korus-verification)
 
 KORUS 시스템에서 내려받은 교육훈련 실적 엑셀 파일과 증빙 서류(PDF 등)를 자동으로 대조하여, 승인 추천 여부를 판정하는 검증 스킬입니다.
 
