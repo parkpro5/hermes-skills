@@ -1,0 +1,160 @@
+{
+  "name": "seoultech-ax",
+  "mode": "placeholder",
+  "slide_size": [
+    12192000,
+    6858000
+  ],
+  "default_font": null,
+  "layouts": {
+    "cover": "표지",
+    "agenda": "목차",
+    "section": "구분",
+    "content": "본문",
+    "closing": "마무리"
+  },
+  "sample_slides": {
+    "cover": 0,
+    "agenda": 1,
+    "section": 2,
+    "content": 3,
+    "closing": 4,
+    "표지": 0,
+    "구분": 2,
+    "본문": 3,
+    "마무리": 4,
+    "목차 5개": 1
+  },
+  "agenda": {
+    "title": 0,
+    "max_items": 5,
+    "items": [
+      {
+        "title": 10,
+        "org": 11
+      },
+      {
+        "title": 12,
+        "org": 13
+      },
+      {
+        "title": 14,
+        "org": 15
+      },
+      {
+        "title": 16,
+        "org": 17
+      },
+      {
+        "title": 18,
+        "org": 19
+      }
+    ]
+  },
+  "section": {
+    "part": 10,
+    "title": 0,
+    "subtitle": 11
+  },
+  "content": {
+    "title": 0,
+    "body": 1,
+    "body_font": "Malgun Gothic",
+    "title_max_chars": 36,
+    "body_area": [
+      548640,
+      1450000,
+      11064240,
+      4650000
+    ],
+    "no_go": [
+      [
+        548640,
+        658368,
+        11064240,
+        603504
+      ],
+      [
+        10153375,
+        0,
+        2038625,
+        1226207
+      ],
+      [
+        0,
+        6200000,
+        2600000,
+        658000
+      ],
+      [
+        11345788,
+        6461462,
+        491937,
+        384241
+      ]
+    ]
+  },
+  "closing": {
+    "text": 0,
+    "date": 10
+  },
+  "sample_strings": [
+    "OOOOOOOO",
+    "필요 시",
+    "STECH AX / DX",
+    "교육혁신원사례",
+    "직원 AI 역량 강화",
+    "입시 데이터 포털",
+    "AI 교육과정 운영",
+    "정보전산원",
+    "교육혁신원",
+    "총무과",
+    "입학처",
+    "인공지능응용학과",
+    "2026.10. 6.",
+    "2026.07.24."
+  ],
+  "cover": {
+    "title": 0,
+    "subtitle": 1,
+    "date_org": 10,
+    "date": 11
+  },
+  "layout_fields": {
+    "표지": {
+      "title": 0,
+      "subtitle": 1,
+      "date_org": 10,
+      "date": 11
+    },
+    "목차 5개": {
+      "title": 0
+    },
+    "목차 4개": {
+      "title": 0
+    },
+    "목차 3개": {
+      "title": 0
+    },
+    "목차 2개": {
+      "title": 0
+    },
+    "목차 1개": {
+      "title": 0
+    },
+    "구분": {
+      "part": 10,
+      "title": 0,
+      "subtitle": 11
+    },
+    "본문": {
+      "title": 0,
+      "body": 1,
+      "sldNum": 12
+    },
+    "마무리": {
+      "text": 0,
+      "date": 10
+    }
+  }
+}

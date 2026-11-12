@@ -1,0 +1,145 @@
+{
+  "default": "seoultech-ax",
+  "templates": [
+    {
+      "id": "seoultech-ax",
+      "name": "서울과학기술대학교 AX 서식",
+      "file": "seoultech_ax.pptx",
+      "description": "서울과학기술대학교 공식 AX/DX 발표 서식. 표지·구분은 짙은 네이비 배경에 지구와 회로 이미지, 본문은 흰 배경에 파란 포인트",
+      "purposes": [
+        "대학 업무 보고",
+        "AX 사업 발표",
+        "정책 보고",
+        "교직원 교육",
+        "사업 계획",
+        "성과 보고",
+        "기관 소개"
+      ],
+      "audiences": [
+        "교직원",
+        "경영진",
+        "총장단",
+        "학생",
+        "대외 기관"
+      ],
+      "tone": [
+        "공식",
+        "신뢰",
+        "기술",
+        "미래"
+      ],
+      "tags": [
+        "AI",
+        "인공지능",
+        "디지털",
+        "정보화",
+        "AX",
+        "DX",
+        "대학",
+        "플랫폼",
+        "데이터",
+        "업무",
+        "효율",
+        "전환",
+        "서울과기대"
+      ],
+      "avoid": [
+        "광고",
+        "마케팅",
+        "어린이",
+        "행사 초대장"
+      ],
+      "features": {
+        "mode": "placeholder",
+        "types": [
+          "cover",
+          "agenda",
+          "section",
+          "content",
+          "closing"
+        ],
+        "layouts": [
+          "표지",
+          "본문",
+          "마무리",
+          "목차 5개",
+          "목차 4개",
+          "목차 3개",
+          "목차 2개",
+          "목차 1개",
+          "구분"
+        ],
+        "max_agenda_items": 5,
+        "has_two_col": false,
+        "n_samples": 5,
+        "cover_tone": "어두움",
+        "content_tone": "밝음"
+      },
+      "preview": "previews/seoultech-ax.png"
+    },
+    {
+      "id": "ai-science-gradient",
+      "name": "AI·과학 그라데이션 서식",
+      "file": "ai-science-gradient.pptx",
+      "description": "하늘색~라벤더 그라데이션 배경에 신경망·원자·분자 등 단순한 AI·과학 그래픽을 쓴 밝고 가벼운 서식. 표지·구분·본문(카드형)·본문 2단",
+      "purposes": [
+        "AI 소개",
+        "기술 동향 발표",
+        "교육 특강",
+        "성과 보고",
+        "사업 소개"
+      ],
+      "audiences": [
+        "교직원",
+        "학생",
+        "일반 청중",
+        "대외 기관"
+      ],
+      "tone": [
+        "밝음",
+        "미래",
+        "가벼움",
+        "기술"
+      ],
+      "tags": [
+        "AI",
+        "인공지능",
+        "과학",
+        "기술",
+        "데이터",
+        "신경망",
+        "연구",
+        "혁신",
+        "교육",
+        "디지털"
+      ],
+      "avoid": [
+        "공식 정책 보고",
+        "법령",
+        "감사 보고",
+        "장례·경조"
+      ],
+      "features": {
+        "mode": "placeholder",
+        "types": [
+          "cover",
+          "section",
+          "content"
+        ],
+        "layouts": [
+          "표지",
+          "구분",
+          "구분 2",
+          "본문",
+          "본문 2"
+        ],
+        "max_agenda_items": null,
+        "has_two_col": false,
+        "n_samples": 5,
+        "cover_tone": "밝음",
+        "content_tone": "밝음"
+      },
+      "preview": "previews/ai-science-gradient.png"
+    }
+  ]
+}

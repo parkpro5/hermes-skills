@@ -1,0 +1,105 @@
+{
+  "name": "ai-science-gradient",
+  "mode": "placeholder",
+  "slide_size": [
+    18288000,
+    10287000
+  ],
+  "default_font": null,
+  "layouts": {
+    "cover": "표지",
+    "section": "구분",
+    "content": "본문"
+  },
+  "sample_slides": {
+    "cover": 0,
+    "section": 1,
+    "content": 3,
+    "표지": 0,
+    "구분": 1,
+    "구분 2": 2,
+    "본문": 3,
+    "본문 2": 4
+  },
+  "layout_fields": {
+    "표지": {
+      "title": 0,
+      "subtitle": 1,
+      "extra1": 30
+    },
+    "구분": {
+      "title": 0,
+      "subtitle": 30
+    },
+    "구분 2": {
+      "title": 0,
+      "subtitle": 30
+    },
+    "본문": {
+      "title": 0,
+      "extra1": 30,
+      "extra2": 31,
+      "extra3": 32,
+      "extra4": 33,
+      "body": 1
+    },
+    "본문 2": {
+      "title": 0,
+      "extra1": 30,
+      "extra2": 31,
+      "extra3": 32,
+      "extra4": 33,
+      "extra5": 34,
+      "extra6": 35,
+      "body": 1
+    }
+  },
+  "cover": {
+    "title": 0,
+    "subtitle": 1
+  },
+  "section": {
+    "title": 0,
+    "subtitle": 30
+  },
+  "content": {
+    "title": 0,
+    "body": 1,
+    "body_font": "Montserrat",
+    "title_max_chars": 16,
+    "body_area": [
+      666750,
+      2453603,
+      16954500,
+      2523989
+    ],
+    "no_go": [
+      [
+        666750,
+        676275,
+        7124700,
+        1571588
+      ]
+    ]
+  },
+  "sample_strings": [
+    "Quarterly",
+    "Performance Report",
+    "Q3 2035 Business Review",
+    "Presented by Aoife Gilgan",
+    "Where we started",
+    "A quarter shaped by shifting priorities",
+    "Stabilize delivery timelines",
+    "Improve cross-team visibility",
+    "Close the gap on customer response time",
+    "Agenda",
+    "What we did",
+    "By the numbers",
+    "What’s next",
+    "Three moves that shaped our progress",
+    "Streamlined handoffs",
+    "Shared reporting cadence",
+    "Faster response protocols",
+    "필요 시"
+  ]
+}
