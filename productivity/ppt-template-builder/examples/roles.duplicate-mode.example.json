@@ -1,0 +1,18 @@
+{
+  "name": "shape_based_template_example",
+  "mode": "duplicate",
+  "slide_size": [12192000, 6858000],
+  "default_font": null,
+  "body_font": "Malgun Gothic",
+  "cover": {"slide": 0, "title": "Text 1", "subtitle": "Text 2", "date_org": "TextBox 9", "date": "TextBox 7"},
+  "agenda": {"slide": 1, "title": "Text 1", "max_items": 5,
+    "items": [
+      {"num": "01", "title": "샘플 항목 1", "org": "샘플 담당 1"},
+      {"num": "02", "title": "샘플 항목 2", "org": "샘플 담당 2"}
+    ]},
+  "section": {"slide": 2, "part": "Text 0", "title": "Text 1", "subtitle": "Text 5"},
+  "content": {"slide": 3, "title": "Text 1", "title_max_chars": 36,
+    "body_area": [548640, 1450000, 11064240, 4650000], "no_go": []},
+  "closing": {"slide": 4, "text": "TextBox 4", "date": "TextBox 11"},
+  "sample_strings": ["OOOOOOOO", "필요 시"]
+}

@@ -47,3 +47,16 @@ Hermes Agent에게 다음과 같이 요청하세요:
 
 ---
 *This skill is designed for high-precision administrative verification and focuses on reducing manual cross-checking effort.*
+
+---
+
+# 2. 🎨 PPT 서식 기반 생성 스킬 (ppt-template-builder)
+
+서식(또는 예전에 실제로 만든 PPT)의 디자인으로 슬라이드를 만들고, 검사 스크립트와 렌더링으로 스스로 검수해 고치는 스킬입니다.
+
+- **서식화**: 일반 PPT를 플레이스홀더 서식으로 변환하고, 서식 설정(roles)을 pptx 안에 내장해 파일 하나로 공유
+- **PPT 생성·검증**: spec.json으로 슬라이드를 만들고 폰트·넘침·빈 칸 등을 자동 점검
+- **서식 추천**: 등록된 서식 중 주제·목적·청중에 맞는 서식 추천
+- **번들 서식**: 서울과학기술대학교 AX 서식, AI·과학 그라데이션 서식
+
+위치: `productivity/ppt-template-builder/` · 사용: "이 서식으로 PPT 만들어줘", "이 파일을 서식으로 만들어줘"
