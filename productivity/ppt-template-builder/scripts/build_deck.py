@@ -317,6 +317,8 @@ class Builder:
         for _ in range(n):
             drop_slide(self.prs, 0)
         self.prs.save(out)
+        from fix_dangling import sanitize_inplace
+        sanitize_inplace(out)
 
 
 # ---------------- 플레이스홀더 서식용 빌더 ----------------
@@ -543,6 +545,8 @@ class PHBuilder:
         for _ in range(len(self.samples)):
             drop_slide(self.prs, 0)
         self.prs.save(out)
+        from fix_dangling import sanitize_inplace
+        sanitize_inplace(out)
 
 
 def main():

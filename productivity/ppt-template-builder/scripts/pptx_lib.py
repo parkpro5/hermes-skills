@@ -48,6 +48,8 @@ def embed_roles(pptx_path, roles, out_path=None):
     part = Part(PackURI('/customXml/ptbRoles.xml'), 'application/xml', prs.part.package, blob)
     prs.part.relate_to(part, RT_CUSTOM_XML)
     prs.save(out_path or pptx_path)
+    from fix_dangling import sanitize_inplace
+    sanitize_inplace(out_path or pptx_path)   # 끊어진 링크 등 제거(복구 메시지 방지)
 
 
 def load_roles(template_path):

@@ -108,6 +108,7 @@ spec 종류 (전체 예시는 `examples/spec.example.json`)
 - 변환 결과는 LibreOffice와 python-pptx로만 확인했다. 중요한 서식은 PowerPoint에서도 열어 확인한다.
 
 ## 주의
+- 결과 pptx와 서식 pptx는 저장할 때 `scripts/fix_dangling.py`가 끊어진 참조(관계 파일에 없는 hlinkClick 등)를 자동 제거한다. 이게 남아 있으면 PowerPoint가 "복구" 메시지를 띄운다. (ai-science-gradient의 '본문' 레이아웃에서 발견되어 수정함) 직접 점검하려면 `python3 scripts/fix_dangling.py 입력.pptx 출력.pptx`.
 - 서식 원본 파일을 덮어쓰지 않는다. 로고·푸터·페이지 번호는 서식에 이미 있으므로 중복 추가하지 않는다(본문 페이지 번호는 빌더가 자동 삽입).
 - 번들 서식의 폰트: 제목·본문 `Malgun Gothic`, 영문 라벨 `Courier New`, 날짜·마무리 `Pretendard`.
 - 서식 pptx에 내장된 roles는 PowerPoint에서 다시 저장해도 대부분 유지되지만(customXml), 사라졌다면 `.roles.json`을 같이 두거나 `auto_convert.py`로 다시 서식화한다. PowerPoint 실제 환경에서의 동작은 아직 확인하지 못했다.
